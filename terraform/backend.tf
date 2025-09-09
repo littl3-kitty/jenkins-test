@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "jenkins-terraform-state-littl3kitty"  # 나중에 S3 버킷 생성할 이름
+    bucket = "jenkins-test-terraform-lk"
     key    = "jenkins-test/terraform.tfstate"
     region = "ap-northeast-2"
   }
